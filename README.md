@@ -6,4 +6,4 @@ Security Fundamentals Assignment 1
  - "sudo apt-get install openssl"
 
 ## Complitation
-To compile use the commandline and type: gcc project-1.c -o test -lssl -lcrypto
+To compile use the commandline and type: gcc -o enc project-1.c -std=c99 -lcrypto -ldl
